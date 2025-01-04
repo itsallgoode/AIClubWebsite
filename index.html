@@ -6,50 +6,78 @@
     <title>AI Club at [Your College]</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
+            background: #f4f4f9;
         }
+
         header {
-            background: #282c34;
-            color: #fff;
-            padding: 1rem 0;
+            background: linear-gradient(90deg, #007bff, #6610f2);
+            color: white;
             text-align: center;
+            padding: 2rem 0;
+            position: relative;
         }
+
         header h1 {
+            font-size: 3rem;
             margin: 0;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0 0;
+        }
+
         nav {
-            background: #444;
+            background: #333;
+            display: flex;
+            justify-content: center;
             padding: 0.5rem 0;
         }
+
         nav a {
-            color: #fff;
-            margin: 0 1rem;
+            color: white;
             text-decoration: none;
+            padding: 0.5rem 1rem;
             font-weight: bold;
+            transition: background 0.3s, color 0.3s;
         }
+
         nav a:hover {
-            text-decoration: underline;
+            background: #007bff;
+            color: white;
         }
-        section {
-            padding: 2rem;
+
+        .content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            text-align: center;
+            background: white;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
-        section h2 {
-            color: #282c34;
+
+        .content h2 {
+            color: #333;
         }
-        .events, .contact-form {
-            margin-top: 2rem;
+
+        .content p {
+            color: #555;
+            line-height: 1.6;
         }
+
         footer {
-            background: #282c34;
-            color: #fff;
+            background: #222;
+            color: white;
             text-align: center;
             padding: 1rem 0;
-            position: absolute;
-            width: 100%;
+            margin-top: 2rem;
         }
+
         footer a {
             color: #61dafb;
             text-decoration: none;
@@ -58,42 +86,22 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to the AI Club at [Your College]</h1>
-        <p>Exploring the future of Artificial Intelligence together</p>
+        <h1>Welcome to the AI Club</h1>
+        <p>Exploring the future of Artificial Intelligence at [Your College]</p>
     </header>
     <nav>
-        <a href="#about">About</a>
-        <a href="#events">Events</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="sponsors.html">Sponsors</a>
     </nav>
-    <section id="about">
-        <h2>About Us</h2>
-        <p>The AI Club at [Your College] is a student-run organization dedicated to learning, sharing, and innovating in the field of artificial intelligence. We welcome members of all skill levels, from beginners to advanced AI enthusiasts.</p>
-    </section>
-    <section id="events">
-        <h2>Upcoming Events</h2>
-        <ul>
-            <li><strong>AI Basics Workshop</strong> - January 20, 2025</li>
-            <li><strong>Hackathon</strong> - February 15-16, 2025</li>
-            <li><strong>Guest Speaker: Dr. AI Expert</strong> - March 5, 2025</li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Have questions or want to join? Fill out the form below:</p>
-        <form class="contact-form">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="5" required></textarea><br><br>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+    <div class="content">
+        <h2>Join Us in Shaping the Future!</h2>
+        <p>At the AI Club, we bring together curious minds and innovators to explore the endless possibilities of Artificial Intelligence. Join our events, workshops, and discussions as we dive into the future of technology!</p>
+    </div>
     <footer>
         <p>&copy; 2025 AI Club at [Your College]. All rights reserved.</p>
-        <p>Visit our <a href="https://github.com/[your-repo]" target="_blank">GitHub</a> for projects and updates.</p>
+        <p>Visit our <a href="https://github.com/[your-repo]" target="_blank">GitHub</a> for updates.</p>
     </footer>
 </body>
 </html>
+
