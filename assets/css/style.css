@@ -190,9 +190,46 @@ footer p {
 }
 
 .leadership-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
-    padding: 40px 20px;
-    background: #f4f4f9;
+    justify-content: center;
+    padding: 20px;
+}
+
+.leader {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.leader-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.leader-details {
+    padding: 15px;
+}
+
+.leader-details h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.leader-details p {
+    margin: 10px 0;
+}
+
+.leader-details a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.leader-details a:hover {
+    text-decoration: underline;
 }
