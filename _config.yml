@@ -1,0 +1,5 @@
+title: "AI Club at Kennesaw State University"
+description: "Exploring the future of Artificial Intelligence"
+baseurl: "" # Leave empty for root domain
+url: "itsallgoode.github.io/AIClubWebsite" # Replace with your GitHub Pages URL
+theme: minima # Default GitHub Pages theme (optional)
