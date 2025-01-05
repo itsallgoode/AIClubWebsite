@@ -203,7 +203,7 @@ footer p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 100%;
-    max-width: 800px;
+
     margin: 0 auto;
 }
 
@@ -213,12 +213,14 @@ footer p {
     padding: 20px;
 }
 
+
 .leader-photo {
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
     margin-right: 20px;
+    flex-shrink: 0;
 }
 
 .leader-details {
