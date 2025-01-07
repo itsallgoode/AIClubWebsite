@@ -146,8 +146,8 @@ nav a:hover {
 /* Media Query for Responsiveness */
 @media (max-width: 768px) {
     .hero {
-        height: 50vw; /* Adjust height for smaller devices */
-        max-height: 500px;
+        height: 56.25vw; /* Adjust height for smaller devices */
+        max-height: 600px;
     }
 
     .hero h1 {
