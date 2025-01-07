@@ -89,7 +89,7 @@ nav a:hover {
 /* Hero Section */
 .hero {
     position: relative;
-    height: 400px;
+    height: 50.00vw;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -146,7 +146,8 @@ nav a:hover {
 /* Media Query for Responsiveness */
 @media (max-width: 768px) {
     .hero {
-        height: 300px;
+        height: 50vw; /* Adjust height for smaller devices */
+        max-height: 500px;
     }
 
     .hero h1 {
