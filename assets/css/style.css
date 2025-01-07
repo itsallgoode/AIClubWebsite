@@ -267,3 +267,33 @@ footer p {
 .post-list h2 a:hover {
     text-decoration: underline;
 }
+.container {
+    max-width: 800px; /* Restricts the width to 800px */
+    margin: 0 auto; /* Centers the content */
+    padding: 20px; /* Adds some padding around the text */
+}
+.post {
+    margin-bottom: 40px; /* Adds spacing between posts */
+}
+
+.post-header {
+    border-bottom: 1px solid #444;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+.post-tags {
+    margin-top: 10px;
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+}
