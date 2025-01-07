@@ -88,20 +88,34 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #333333, #222222); /* Dark gradient */
-    color: #ffffff;
+    background-size: cover; /* Ensures the image covers the section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #ffffff; /* White text for contrast */
     text-align: center;
-    padding: 60px 20px;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .hero h1 {
-    font-size: 3rem;
-    margin: 0 0 15px;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
 .hero p {
     font-size: 1.2rem;
-    margin: 0 0 20px;
+    margin-bottom: 20px;
 }
 
 .hero .button {
@@ -112,10 +126,26 @@ nav a:hover {
     border-radius: 5px;
     font-weight: bold;
     margin: 5px;
+    text-decoration: none;
 }
 
 .hero .button:hover {
     background: #3700b3;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    .hero {
+        height: 300px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
 }
 
 /* Features Section */
