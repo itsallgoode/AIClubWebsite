@@ -88,19 +88,29 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-    background-size: cover; /* Ensures the image covers the section */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat;
-    height: 400px; /* Adjust height as needed */
+    position: relative;
+    height: 400px;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    color: #ffffff; /* White text for contrast */
     text-align: center;
+    color: #ffffff;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintains aspect ratio and fills the space */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .hero-overlay {
+    position: relative;
+    z-index: 2;
     background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
     padding: 20px;
     border-radius: 8px;
