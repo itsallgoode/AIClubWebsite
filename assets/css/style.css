@@ -89,7 +89,7 @@ nav a:hover {
 /* Hero Section */
 .hero {
     position: relative;
-    height: 50vw; /* Matches the 1:2 aspect ratio */
+    height: 56.25vw; /* Matches the 1:2 aspect ratio */
     overflow: hidden;
     display: flex;
     align-items: center;
